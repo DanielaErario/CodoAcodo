@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h1{
+    color: rgb(0, 242, 250);
+    
+}
+
+
+.bgRojo {
+    background-color: #150ef1ea;
+    height: 80px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+.links li {
+    list-style: none;    
+}
+
+.links a:hover{
+    color: yellow;
+}
+
+
+.linksSinDecoration{
+    text-decoration: none;
+    color: white;
+}
+
+.linkAnimado:hover {
+    animation: rubberBand; 
+    animation-duration: 2s;
+    box-shadow: 10px 10px black;
+    border-radius: 10px;
+}
+
+#banner{
+    background-image: url('img/en_el_cine.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;          
+}
+
+
+#busqueda {
+    height: 300px;
+    background-color: black;
+}
+
+.movie-item {
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+.movie-item-img {
+    border-radius: 30px;
+    width: 200px;
+    height: 300px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    filter: grayscale(50%);
+}
+
+.movie-item-img:hover {
+    filter: grayscale(0);
+    box-shadow: 20px 0 rgb(139, 118, 0), -20px 0px rgb(139, 118, 0), 0 -20px rgb(139, 118, 0)
+  }
+
+#footer {
+    background-color: #150ef1ea;
+    height: 70px;
+    padding: 1rem;
+}
+
+#footer li {
+    list-style: none;
+
+}
+#footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem 0 1rem;
+}
+
+
+#footer a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.bgAzul {
+    background-color: rgb(24, 24, 130);
+    border-radius: 20px;
+}
